@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "image": "/assets/images/homer.jpg",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "image": "/assets/images/marge.jpg",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "image": "/assets/images/bart.jpg",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "image": "/assets/images/lisa.png",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "image": "/assets/images/maggie.png",
+        "clicked": false
+    }
+]
