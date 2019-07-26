@@ -1,6 +1,9 @@
 .header {
-    background-color: #2C323C;
-    color: white;
+    background-image: url("/assets/images/couch.jpeg");
+    background-size: cover;
+    background-color: #0d0d0e;
+    color: sandybrown;
+    font-family: 'Delius', cursive;
     padding: 120px; 
     text-align: center;
   }

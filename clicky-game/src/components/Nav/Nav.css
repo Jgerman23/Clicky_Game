@@ -1,9 +1,10 @@
  .navbar {
+     background-color: gold;
     min-height: 70px;
     position: fixed;
     width: 100%;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-    color: white;
+    box-shadow: 0 19px 38px rgba(128, 128, 128, 0.3), 0 15px 12px rgba(128, 128, 128, 0.3);
+    /* color: white; */
     z-index: 99;
     white-space: nowrap;
     text-align: center;
@@ -20,13 +21,20 @@
   
   .navbar a {
     text-decoration: none;
-    color: white !important;
+    padding-right: 30px;
     font-weight: 900;
   }
 
-  /* .nav-item {
-      font-size: 2em;
-  } */
+  img{
+      /* margin-right: 30px; */
+      height: 60px;
+      width: 60px;
+  }
+
+  .nav-item {
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em;
+  }
   
   @media (max-width: 420px) {
     .navbar li:first-child {

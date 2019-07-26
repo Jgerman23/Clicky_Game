@@ -3,6 +3,7 @@ import Nav from "../Nav/Nav";
 import Header from "../Header/Header";
 import Container from "../Container/Container";
 import ClickCard from "../ClickCard/ClickCard";
+import Footer from "../Footer/Footer"
 import data from "../../data.json"
 
 class MainGame extends Component {
@@ -84,6 +85,7 @@ class MainGame extends Component {
                         />
                     ))}
                 </Container>
+                <Footer />
             </div>
         )
     }
