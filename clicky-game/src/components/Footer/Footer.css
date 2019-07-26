@@ -1,0 +1,11 @@
+.navbar-bottom{
+    border-top: 4px solid black;
+    border-radius: 25px;
+}
+
+.disabled{
+    color: rgb(96, 207, 255) !important;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+

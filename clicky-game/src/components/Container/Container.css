@@ -1,5 +1,4 @@
 .container{
-    background-color: rgb(246,201,69);
     display: flex;
     min-height: 80%;
     flex-wrap: wrap;

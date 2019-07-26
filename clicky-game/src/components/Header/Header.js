@@ -3,8 +3,8 @@ import "./Header.css"
 
 const Header = props => (
     <header className="header">
-        <h1>Welcome to The Simpsons Click Game!</h1>
-        <h2>Click an image to earn points, but don't click on any more than once!</h2>
+        <h1>welcome to The Simpsons click game!</h1>
+        <h2>click an image to earn points, but don't click on any more than once!</h2>
     </header>
 );
 

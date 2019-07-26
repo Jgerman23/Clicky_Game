@@ -3,10 +3,7 @@
     min-height: 70px;
     position: fixed;
     width: 100%;
-    box-shadow: 0 19px 38px rgba(128, 128, 128, 0.3), 0 15px 12px rgba(128, 128, 128, 0.3);
-    /* color: white; */
-    z-index: 99;
-    white-space: nowrap;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
     text-align: center;
   }
   
@@ -21,12 +18,11 @@
   
   .navbar a {
     text-decoration: none;
-    padding-right: 30px;
+    padding-left: 60px;
     font-weight: 900;
   }
 
   img{
-      /* margin-right: 30px; */
       height: 60px;
       width: 60px;
   }
@@ -34,6 +30,7 @@
   .nav-item {
     font-family: 'Caveat', cursive;
     font-size: 1.5em;
+    padding-right: 60px;
   }
   
   @media (max-width: 420px) {
