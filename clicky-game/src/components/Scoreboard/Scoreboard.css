@@ -4,3 +4,9 @@ h3{
     text-align: center;
     color: darkcyan;
 }
+
+@media (max-width: 420px) {
+    h3{
+        font-size: 2em;
+    }
+  }

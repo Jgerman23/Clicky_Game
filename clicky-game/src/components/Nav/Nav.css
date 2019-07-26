@@ -1,10 +1,12 @@
  .navbar {
-     background-color: gold;
+    background-color: gold;
     min-height: 70px;
     position: fixed;
     width: 100%;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
     text-align: center;
+    z-index: 99;
+    white-space: nowrap;
   }
   
   .navbar ul {
@@ -14,6 +16,7 @@
   
   .navbar li {
     text-align: center;
+    /* width: 33.3%; */
   }
   
   .navbar a {
@@ -31,19 +34,26 @@
     font-family: 'Caveat', cursive;
     font-size: 1.5em;
     padding-right: 60px;
+    text-align: center;
+  }
+
+  @media (max-width: 1100px) {
+    .navbar a {
+      padding: 0;
+    }
+    .nav-item{
+      padding: 0;
+    }
   }
   
   @media (max-width: 420px) {
-    .navbar li:first-child {
-      width: 25%;
+    .navbar a {
+      padding: 0;
     }
-  
-    .navbar li:nth-child(2) {
-      width: 35%;
+
+    .nav-item{
+      padding: 0;
     }
-  
-    .navbar li:last-child {
-      width: 40%;
-    }
+
   }
    
