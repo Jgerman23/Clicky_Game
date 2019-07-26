@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Scoreboard.css";
 
 class Scoreboard extends Component {
     state = {
@@ -11,9 +12,9 @@ class Scoreboard extends Component {
         if (score === 0 && highScore === 0) {
             newState.message = "";
         } else if (score === 0 && highScore > 0) {
-            newState.message = "incorrect";
+            newState.message = "incorrect ";
         } else {
-            newState.message = "correct";
+            newState.message = "correct ";
         }
         this.setState(newState, () =>
             setTimeout(() => this.setState({ numberScore: false }), 600)
@@ -22,20 +23,20 @@ class Scoreboard extends Component {
 
     renderMessage = () => {
         switch (this.state.message) {
-            case "correct":
+            case "correct ":
                 return "You Guessed Correctly!";
-            case "incorrect":
+            case "incorrect ":
                 return "You Guessed Incorrectly!";
-            default:
+            default: 
                 return "Click an image to get started!";
         }
     };
 
     render() {
         return (
-            <li className={this.state.numberScore ? this.state.message : ""}>
+            <h3 className= {this.state.numberScore ? this.state.message : ""}>
                 {this.renderMessage()}
-            </li>
+            </h3>
         );
     }
 

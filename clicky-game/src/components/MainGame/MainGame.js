@@ -78,7 +78,7 @@ class MainGame extends Component {
                         <ClickCard
                             key={item.id}
                             id={item.id}
-                            shake={!this.state.score && this.state.topScore}
+                            shake={!this.state.score && this.state.highScore}
                             handleClick={this.handleClickedCard}
                             image={item.image}
                         />
