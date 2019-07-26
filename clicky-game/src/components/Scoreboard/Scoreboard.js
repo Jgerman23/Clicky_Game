@@ -7,7 +7,7 @@ class Scoreboard extends Component {
     };
 
     componentWillReceiveProps({ score, highScore }) {
-        let newState = { score: true };
+        let newState = { numberScore: true };
         if (score === 0 && highScore === 0) {
             newState.message = "";
         } else if (score === 0 && highScore > 0) {

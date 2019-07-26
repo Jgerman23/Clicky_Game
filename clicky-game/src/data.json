@@ -23,5 +23,40 @@
         "id": 5,
         "image": "/assets/images/maggie.png",
         "clicked": false
+    },
+    {
+        "id": 6,
+        "image": "/assets/images/abe.png",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "image": "/assets/images/hans.png",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "image": "/assets/images/hugo.png",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "image": "/assets/images/itchy.png",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "image": "/assets/images/krusty.png",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "image": "/assets/images/moe.jpg",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "image": "/assets/images/scratchy.jpg",
+        "clicked": false
     }
 ]

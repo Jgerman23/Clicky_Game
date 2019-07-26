@@ -1,5 +1,6 @@
 import React from "react";
 import Scoreboard from "../Scoreboard/Scoreboard"
+import "./Nav.css";
 
 const Nav = props => (
     <nav className="navbar navbar-light bg-primary">
