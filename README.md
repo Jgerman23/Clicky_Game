@@ -5,7 +5,7 @@
 <p> <h4>Game Instructions: </h4> Try to click on every Simpsons character once. When you click a picture the grid will automatically shuffle. The goal of the game is click all 12 Simpsons pictures once despite the shuffled grid. If you click any picture twice the game will reset and you must begin again!</p>
 
 <h2>Heroku Link</h2>
-
+ https://the-simpsons-clicky-game.herokuapp.com/
 
 <h3> The app was created using: </h3>
 <ul>
